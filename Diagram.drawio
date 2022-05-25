@@ -1,26 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T01:16:07.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="qiaqPakNCYqH2HRfCq8v" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-25T01:18:42.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="zEqyVpFCOEaMm4I0zGpD" version="18.1.1" type="github">
   <diagram id="RUY9uKoAq_wBMj9XJ3xV" name="Page-1">
-    <mxGraphModel dx="1382" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
+    <mxGraphModel dx="1123" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="WYZDTBI8hpZmAs6h1OOB-1" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.workstation;" vertex="1" parent="1">
-          <mxGeometry x="200" y="320" width="118" height="80" as="geometry" />
+          <mxGeometry x="120" y="320" width="118" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WYZDTBI8hpZmAs6h1OOB-2" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.tape_library;" vertex="1" parent="1">
-          <mxGeometry x="440" y="320" width="120" height="80" as="geometry" />
+          <mxGeometry x="360" y="320" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WYZDTBI8hpZmAs6h1OOB-3" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.database;" vertex="1" parent="1">
-          <mxGeometry x="720" y="520" width="120" height="80" as="geometry" />
+          <mxGeometry x="640" y="520" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WYZDTBI8hpZmAs6h1OOB-4" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.tape_server;" vertex="1" parent="1">
-          <mxGeometry x="720" y="120" width="120" height="76" as="geometry" />
+          <mxGeometry x="640" y="120" width="120" height="76" as="geometry" />
         </mxCell>
         <mxCell id="WYZDTBI8hpZmAs6h1OOB-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.dns;" vertex="1" parent="1">
-          <mxGeometry x="920" y="98" width="120" height="120" as="geometry" />
+          <mxGeometry x="840" y="98" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="WYZDTBI8hpZmAs6h1OOB-7" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.veeam_backup_search_server;" vertex="1" parent="1">
-          <mxGeometry x="720" y="320" width="120" height="80" as="geometry" />
+          <mxGeometry x="640" y="320" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

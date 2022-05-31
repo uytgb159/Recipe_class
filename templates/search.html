@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>Findish</title>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+            header{height: 75px; background-color: brown; position: fixed; width: 100%; top: 0; left: 0;}
+            h1{color: white; font-family: 'Noto Sans KR', sans-serif; line-height: 25px;}
+            input{font-family: 'Noto Sans KR', sans-serif; font-size: 20px; border-top: 0; border-left: 0; border-right: 0; outline: none;}
+            .titleWraper{width: 800px; margin: 0 auto;}
+            .inputWraper{width: 700px; height: fit-content; margin: 0 auto; padding-top: 100px; display: block;}
+            .tagWrapper{width: 700px; height: fit-content; margin: 0 auto; padding-top: 20px; padding-bottom: 10px;}
+            .cardWrapper{width: 700px; margin: 0 auto; padding-top: 100px;}
+            .card{width: 300px; height: 200px; background-color: rgb(217, 217, 217); float: left; margin: 25px;}
+            .addingTag{background-color: rgb(120, 179, 255); height: 30px; width: fit-content; float: left; font-family: 'Noto Sans KR', sans-serif; font-size: 18px; margin: 10px}
+            .subingTag{background-color: rgb(255, 154, 154); height: 30px; width: fit-content; float: left; font-family: 'Noto Sans KR', sans-serif; font-size: 18px; margin: 10px}
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="titleWraper">
+                <h1 onclick="//goHome()">
+                    Findish
+                </h1>
+            </div>
+        </header>
+        <div class="inputWraper">
+            <a style="font-size: 20px; font-family: 'Noto Sans KR', sans-serif;">무엇을 넣나요?</a>
+            <input type="text" onKeypress="addIngredient()" id="addInput">
+        </div>
+        <div class="tagWrapper" id="addingTagList"></div>
+        </div>
+        <div class="inputWraper">
+            <a style="font-size: 20px; font-family: 'Noto Sans KR', sans-serif;">무엇을 빼나요?</a>
+            <input type="text" onKeypress="subIngredient()" id="subInput">
+        </div>
+        <div class="tagWrapper" id="subingTagList"></div>
+        </div>
+        <div class="cardWrapper">
+            <div class="card">
+            </div>
+            <div class="card">
+            </div>
+            <div class="card">
+            </div>
+
+        </div>
+    </body>
+</html>
+
+<script>
+    var addingList = new Array();
+    var subingList = new Array();
+
+    function addIngredient(){
+        if(event.keyCode==13) {
+            var ingredient = document.getElementById('addInput').value;
+            addingList.push(ingredient);
+
+            if(ingredient != ""){
+                let addingTagList = document.getElementById('addingTagList');
+                let addingTag = document.createElement('div');
+                
+                addingTag.className = "addingTag";
+                addingTag.onclick = "addTag(this)";
+
+                addingTag.innerText = ingredient;
+
+                addingTagList.appendChild(addingTag);
+
+                document.getElementById('addInput').value = "";
+            }
+        }
+    }
+    function subIngredient(){
+        if(event.keyCode==13) {
+            var ingredient = document.getElementById('subInput').value;
+            subingList.push(ingredient);
+
+            if(ingredient != ""){
+                let subingTagList = document.getElementById('subingTagList');
+                let subingTag = document.createElement('div');
+                
+                subingTag.className = "subingTag";
+                subingTag.onclick = "subTag(this)";
+
+                subingTag.innerText = ingredient;
+
+                subingTagList.appendChild(subingTag);
+
+                document.getElementById('subInput').value = "";
+            }
+            
+        }
+    }
+    function addTag(tag){
+        var ingredient = tag.value;
+
+        addingList.splice(addingList.fint(ingredient), 1);
+
+        tag.remove();
+    }
+    function subTag(tag){
+        var ingredient = tag.value;
+
+        subingList.splice(subingList.fint(ingredient), 1);
+
+        tag.remove();
+    }
+</script>

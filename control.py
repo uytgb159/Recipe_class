@@ -7,8 +7,14 @@ import re
 import requests
 from bs4 import BeautifulSoup
 from flask import Flask, render_template, request
-
 from elasticsearch import Elasticsearch
+from konlpy.tag import Kkma
+from konlpy.utils import pprint
+from elasticsearch import Elasticsearch
+
+def hfilter(s):
+    return re.sub(u'[^ \.\,\?\!\u3130-\u318f\uac00-\ud7a3]+', '', s)
+
 es_host="http://localhost:9200"
 instru_l=['도마', '칼', '채칼', '필러', '가위', '강판', '다지기', '절구', '주걱', '스푼', '국자', '뒤집개', '누르개', '집게', '거품기', '스패츌러', '브러쉬', '믹싱볼', '바구니', '계량컵', '채망', '채반', '거름망']
 word_l=[]
@@ -22,18 +28,27 @@ soup = BeautifulSoup(res.content, "html.parser")
 html_l=soup.find(class_='common_sp_list_ul').find_all('li')
 
 #각 요리별로 조리방법의 text를 크롤링
-#for href in html_l:
-#    print(href.find('a')['href'])
-address=href_url+html_l[0].find('a')['href']
-res = requests.get(address)
-soup = BeautifulSoup(res.content, "html.parser")
-tb = soup.find(class_='view_step')
-tb_l=tb.find_all(class_='media-body')
 one_sen=''
-for sen in tb_l:
-    one_sen+=sen.text
-print(one_sen.strip('\n'))
+for href in html_l:
+    address=href_url+href.find('a')['href']
+    res = requests.get(address)
+    soup = BeautifulSoup(res.content, "html.parser")
+    tb = soup.find(class_='view_step')
+    tb_l=tb.find_all(class_='media-body')
+    for sen in tb_l:
+        one_sen+=sen.text.strip('\n')
+    print(one_sen)
+hfil_str=hfilter(one_sen)
+print(hfil_str)
 
-for href in soup.find(class_='common_sp_list_ul').find_all('li'):
-    print(href.find('a')['href'])
-
+#형태소 분석
+kkma=Kkma()
+wdic={}
+wlist=kkma.pos(hfil_str)
+for w in wlist:
+    if w[1] =="NNG":
+        if w[0] not in wdic:
+            wdic[w[0]]=0
+        wdic[w[0]]+=1
+sort_wdic=sorted(wdic.items(), key=lambda x:x[1], reverse=True)
+print(sort_wdic)

@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#TF-IDF를 계산하기 위한 대조군 TEXT를 만들고 DB에 집어넣는다. 만개의 레시피 - 랭킹 페이지에 있는 요리들의 조리순서에 있는 명사들을 추출해 LIST를 만들고 조리도구들을 추가로 LIST에 10번 집어넣는다.
 #랭킹 홈페이지 URL: https://www.10000recipe.com/ranking/home_new.html
 #하이퍼링크 : https://www.10000recipe.com + href(/recipe/숫자)
 
@@ -9,12 +10,12 @@ from flask import Flask, render_template, request
 from elasticsearch import Elasticsearch
 from konlpy.tag import Kkma
 from konlpy.utils import pprint
+from elasticsearch import Elasticsearch
 
 def hfilter(s):
     return re.sub(u'[^ \.\,\?\!\u3130-\u318f\uac00-\ud7a3]+', '', s)
 
 es_host="http://localhost:9200"
-
 instru_l=['도마', '칼', '채칼', '필러', '가위', '강판', '다지기', '절구', '주걱', '스푼', '국자', '뒤집개', '누르개', '집게', '거품기', '스패츌러', '브러쉬', '믹싱볼', '바구니', '계량컵', '채망', '채반', '거름망']
 word_l=[]
 
@@ -23,6 +24,7 @@ rank_url='https://www.10000recipe.com/ranking/home_new.html'
 href_url='https://www.10000recipe.com'
 res=requests.get(rank_url)
 soup = BeautifulSoup(res.content, "html.parser")
+
 html_l=soup.find(class_='common_sp_list_ul').find_all('li')
 
 #각 요리별로 조리방법의 text를 크롤링

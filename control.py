@@ -44,17 +44,19 @@ hfil_str=hfilter(one_sen)
 
 #3. 형태소 분석: 명사만 뽑아내기
 kkma=Kkma()
-word_l=[]
+word_d={}
 wlist=kkma.pos(hfil_str)
 for w in wlist:
     if w[1] =="NNG":
-        word_l.append(w[0])
-print(word_l)
+        if w[0] not in word_d.keys():
+            word_d[w[0]]=0
+        word_d[w[0]]+=1
+#print(word_d)
 
 #4. ElasticSearch에 word list 집어넣기
 es=Elasticsearch(es_host)
 e={
     "control_word":"control",
-    "word_list":word_l}
+    "word_dict":word_d}
 res=es.index(index='control_words1', id=1, document=e)
 print("FINISH")

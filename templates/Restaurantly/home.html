@@ -83,9 +83,24 @@
           <div class="btns">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto">Example</a>
             <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Keyword</a>
+             <form action="elastic.py" method="post">
+              <br>
+              <input type="text" name="keyword">
+              <input type="submit" value="Click"><br>
+            </form>
+            <ul>
+              <br>
+              <li>원하는 키워드를 입력 해보세요.</li>
+              <li>음식관련 키워드들을 랜덤으로 추천해주겠습니다.</li><br>
+            </ul>
+
+            <div class="grid" style="--bs-columns: 3;">
+              <div>{{result1}}</div>
+              <div>{{result2}}</div>
+              <div>{{result3}}</div>
+              <div>{{result4}}</div>
           </div>
         </div>
-
       </div>
     </div>
   </section><!-- End Hero -->

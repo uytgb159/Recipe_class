@@ -93,8 +93,8 @@ def analysisTFIDF(recipe):
             break
     print(top10_d)
 
-
     #4. SCORE높은 TOP10개 단어를 RETURN
+    return top10_d
     
 if __name__=='__main__':
     #두부닭가슴살유부초밥 재료

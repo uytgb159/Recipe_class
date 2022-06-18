@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -8,6 +10,9 @@
   <title>Recipe for U</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
   <!-- Favicons -->
   <link href="assets/img/free-icon-dish-1405021.png" rel="icon">
@@ -127,12 +132,10 @@
               <li><i class="bi bi-check-circle"></i> 제외 시킬 재료를 알려주세요.</li>
               <li><i class="bi bi-check-circle"></i> 음식관련 키워드들도 랜덤으로 추천해주겠습니다.</li>
             </ul>
-            <form action="" method="post">
-              <input type="include" name="include"><input type="submit" value="Include">
-            </form>
-            <br>
-            <form action="" method="post">
-              <input type="exclude" name="exclude"><input type="submit" value="exclude">
+            <form action="/search" method="POST">
+              <p>include</p><input type="include" name="include"><input type="submit" value="search">
+              <br>
+              <p>exclude</p><input type="exclude" name="exclude">
             </form>
           </div>
         </div>

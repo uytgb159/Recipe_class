@@ -11,6 +11,6 @@ index_list=es.indices.get(index='*')
 index_list=sorted(index_list, reverse=True)
     
 if "control_words2" in index_list:
-    True
+    print("yes")
 else:
-    False
+    print("no")

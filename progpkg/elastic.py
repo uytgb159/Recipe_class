@@ -42,7 +42,3 @@ if __name__=='__main__':
     res=es.search(index='keyword', body={"query": {"match_all":{}}})
     #print(res)
     
-    #home.html로 전달
-    def home():
-        return render_template("home.html", result1 = final_list[0], result2 = final_list[1], result3 = final_list[2], result4 = final_list[3])
-    

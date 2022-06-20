@@ -54,15 +54,15 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="{{ url_for('static', filename='index.html') }}">Recipe for U</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Recipe for U</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Keyword</a></li>
-          <li><a class="nav-link scrollto" href="#service">Service</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
           <li><a class="nav-link scrollto" href="#recommendation">Recommendation</a></li>
           <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
         </ul>
@@ -81,9 +81,9 @@
           <h2>Recommend best cook with ingredients in your refrigerator!</h2>
 
           <div class="btns">
-            <a href="{{ url_for('static', filename='#menu') }}" class="btn-menu animated fadeInUp scrollto">Example</a>
-            <a href="{{ url_for('static', filename='#book-a-table') }}" class="btn-book animated fadeInUp scrollto">Keyword</a>
-            <form action="elastic.py" method="post">
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Example</a>
+            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Keyword</a>
+             <form action="elastic.py" method="post">
               <br>
               <input type="text" name="keyword">
               <input type="submit" value="Click"><br>
@@ -91,7 +91,7 @@
             <ul>
               <br>
               <li>원하는 키워드를 입력 해보세요.</li>
-              <li>음식관련 키워드들을 랜덤으로 추천 해주겠습니다.</li><br>
+              <li>음식관련 키워드들을 랜덤으로 추천해주겠습니다.</li><br>
             </ul>
 
             <div class="grid" style="--bs-columns: 3;">
@@ -99,10 +99,8 @@
               <div>{{result2}}</div>
               <div>{{result3}}</div>
               <div>{{result4}}</div>
-            </div>
           </div>
         </div>
-
       </div>
     </div>
   </section><!-- End Hero -->
@@ -116,7 +114,7 @@
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="about-img">
-              <img src="{{ url_for('static', filename='assets/img/vegetable.jpg') }}" alt="">
+              <img src="assets/img/vegetable.jpg" alt="">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
@@ -127,17 +125,13 @@
             <ul>
               <li><i class="bi bi-check-circle"></i> 포함 시킬 재료를 알려주세요.</li>
               <li><i class="bi bi-check-circle"></i> 제외 시킬 재료를 알려주세요.</li>
+              <li><i class="bi bi-check-circle"></i> 음식관련 키워드들도 랜덤으로 추천해주겠습니다.</li>
             </ul>
-            <form action="" method="post">
-              <label for="include">Include: </label>
-              <input type="text" name="include"><br><br>
-              <label for="exclude">Exclude: </label>
-              <input type="text" name="exclude"><br><br>
-              <input type="submit" value="Search"><br>
+            <form action="/search" method="POST">
+              <p>include</p><input type="include" name="include"><input type="submit" value="search">
+              <br>
+              <p>exclude</p><input type="exclude" name="exclude">
             </form>
-            <br>
-            <br>
-            <li>포함 시킬 재료는 하나, 제외 시킬 재료는 여러개 입력 가능합니다.</li><br>
           </div>
         </div>
 
@@ -200,7 +194,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <img src="{{ url_for('static', filename='assets/img/chefs/common.jpeg') }}" class="img-fluid" alt="">
+              <img src="assets/img/chefs/common.jpeg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>백종원</h4>
@@ -218,7 +212,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <img src="{{ url_for('static', filename='assets/img/chefs/common-2.jpeg') }}" class="img-fluid" alt="">
+              <img src="assets/img/chefs/common-2.jpeg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>이연복</h4>
@@ -236,7 +230,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <img src="{{ url_for('static', filename='assets/img/chefs/common-3.jpeg') }}" class="img-fluid" alt="">
+              <img src="assets/img/chefs/common-3.jpeg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>고든램지</h4>

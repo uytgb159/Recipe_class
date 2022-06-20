@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/') # 접속url
 def index():
-  return render_template('Restaurantly/home.html')
+  return render_template('home.html')
   
 @app.route('/search', methods = ["POST", "GET"]) #second page
 def recipe():

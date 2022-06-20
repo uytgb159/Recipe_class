@@ -5,8 +5,10 @@ from progpkg import crawl, analysis, elastic
 
 app = Flask(__name__)
 
-@app.route('/') # 접속url
+@app.route('/', method = ["post"]) # 접속url
 def home():
+  w = request.form["keyword"]
+  elastic.keyword(w)
   return render_template('home.html', result1 = final_list[0], result2 = final_list[1], result3 = final_list[2], result4 = final_list[3])
   
 @app.route('/search', methods = ["POST", "GET"]) #second page

@@ -10,14 +10,15 @@
             .titleWraper{width: 800px; margin: 0 auto;}
             .inputWraper{width: 700px; height: fit-content; margin: 0 auto; padding-top: 100px; display: block;}
             .tagWrapper{width: 700px; height: fit-content; margin: 0 auto; padding-top: 20px; padding-bottom: 10px;}
-            .cardWrapper{width: 700px; margin: 0 auto; padding-top: 100px;}
-            .card{width: 300px; height: 200px; background-color: rgb(217, 217, 217); float: left; margin: 25px;}
+            .cardWrapper{width: 2000px; margin: 0 auto; padding-top: 100px;}
+            .card{width: 500px; height: 200px; background-color: rgb(217, 217, 217); float: left; margin: 25px;}
             .recipeTitle{font-family: 'Noto Sans KR', sans-serif; font-size: 18px;}
             .recipeSource{font-family: 'Noto Sans KR', sans-serif; font-size: 15px; float: left; margin: 5px}
             .addingTag{background-color: rgb(120, 179, 255); height: 30px; width: fit-content; float: left; font-family: 'Noto Sans KR', sans-serif; font-size: 18px; margin: 10px}
             .subingTag{background-color: rgb(255, 154, 154); height: 30px; width: fit-content; float: left; font-family: 'Noto Sans KR', sans-serif; font-size: 18px; margin: 10px}
         </style>
     </head>
+
     <body>
         <header>
             <div class="titleWraper">
@@ -26,22 +27,25 @@
                 </h1>
             </div>
         </header>
+
         <div class="inputWraper">
             <a style="font-size: 20px; font-family: 'Noto Sans KR', sans-serif;">무엇을 넣나요?</a>
         </div>
+        
         <div class="tagWrapper" id="addingTagList">
             <div class="addingTag">{{ addSource }}</div>
         </div>
-        </div>
+        
         <div class="inputWraper">
             <a style="font-size: 20px; font-family: 'Noto Sans KR', sans-serif;">무엇을 빼나요?</a>
         </div>
+        
         <div class="tagWrapper" id="subingTagList">
             {% for i in subList%}
             <div class="subingTag">{{ i }}</div>
             {% endfor %}
         </div>
-        </div>
+    
         <div class="cardWrapper">
             {% for i in range(10)%}
             <div class="card">
@@ -52,5 +56,7 @@
             </div>
             {% endfor %}
         </div>
+
     </body>
+
 </html>

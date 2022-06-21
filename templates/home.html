@@ -79,26 +79,21 @@
         <div class="col-lg-8">
           <h1>Welcome to <span>Your Recipe</span></h1>
           <h2>Recommend best cook with ingredients in your refrigerator!</h2>
+          <br></br>
 
           <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Example</a>
-            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Keyword</a>
-             <form action="elastic.py" method="post">
-              <br>
-              <input type="text" name="keyword">
-              <input type="submit" value="Click"><br>
-            </form>
-            <ul>
-              <br>
-              <li>원하는 키워드를 입력 해보세요.</li>
-              <li>음식관련 키워드들을 랜덤으로 추천해주겠습니다.</li><br>
-            </ul>
+            <h1>Most Acumulative Search Words!</h1>
+            <!--form action="elastic.py" method="post"-->
+            <br></br>
 
             <div class="grid" style="--bs-columns: 3;">
-              <div>{{result1}}</div>
-              <div>{{result2}}</div>
-              <div>{{result3}}</div>
-              <div>{{result4}}</div>
+              <div><h2>Top1. {{result1}}</h2></div>
+              <div><h2>Top2. {{result2}}</h2></div>
+              <div><h2>Top3. {{result3}}</h2></div>
+              <div><h2>Top4. {{result4}}</h2></div>
+              <div><h2>Top5. {{result5}}</h2></div>
+            </div>
+            <!--/form-->
           </div>
         </div>
       </div>
@@ -194,7 +189,8 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <img src="assets/img/chefs/common.jpeg" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='assets/img/chefs/common.jpeg') }}" class="img-fluid" alt="">
+
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>백종원</h4>
@@ -212,7 +208,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <img src="assets/img/chefs/common-2.jpeg" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='assets/img/chefs/common-2.jpeg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>이연복</h4>
@@ -230,8 +226,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <img src="assets/img/chefs/common-3.jpeg" class="img-fluid" alt="">
-              <div class="member-info">
+              <img src="{{ url_for('static', filename='assets/img/chefs/common-3.jpeg') }}" class="img-fluid" alt="">              <div class="member-info">
                 <div class="member-info-content">
                   <h4>고든램지</h4>
                   <span>The most famous Chief</span>

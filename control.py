@@ -68,4 +68,13 @@ es=Elasticsearch(es_host)
 e={"control_word":'control',
     "word_list":word_l}
 res=es.index(index='control_words2', id=1, document=e)
+
+#5. Elasticsearch에 기본단어 집어넣기
+print('putting base accmulated word dict in ElasticSearch')
+#현재 감자는 4개, 세번씩 저장 되어있는 백종원, 계란, 간편음식, 두번씩 저장되어있는 고구마, 요거트, 이렇게 총 6개의 단어가 보일 것이다.
+accu_word_d={"감자":4, "백종원":3, "계란":3, "토마토":3, "고구마":2, "요거트":2}
+eee={"accu_word":'accumulated_word',
+    "word_dict":accu_word_d}
+res=es.index(index='accumulated_words_dictionary', id=1, document=eee)
+
 print("FINISH")

@@ -9,7 +9,7 @@ if [ "$isControl" = "yes" ]; then
     echo "There's a control group"
 else
     echo "There's no a control group"
-    python get_index.py
+    python control.py
 fi
 
 #2. flask 실행

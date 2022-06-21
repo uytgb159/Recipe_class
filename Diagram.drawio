@@ -1,119 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T14:24:35.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ZuF1unG-g1rVhrz_APqQ" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-21T14:28:15.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="UKmj7aQ7f7xfQ8IL-Dmq" version="20.0.1" type="github">
   <diagram id="RUY9uKoAq_wBMj9XJ3xV" name="Page-1">
-    <mxGraphModel dx="1138" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2276" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-14" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="1" source="WYZDTBI8hpZmAs6h1OOB-1" target="WYZDTBI8hpZmAs6h1OOB-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-1" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.workstation;" parent="1" vertex="1">
-          <mxGeometry x="200" y="320" width="118" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-12" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="1" source="WYZDTBI8hpZmAs6h1OOB-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-2" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.tape_library;" parent="1" vertex="1">
-          <mxGeometry x="440" y="320" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-40" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="WYZDTBI8hpZmAs6h1OOB-3" target="WYZDTBI8hpZmAs6h1OOB-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-3" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.database;" parent="1" vertex="1">
-          <mxGeometry x="720" y="520" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-18" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="1" source="WYZDTBI8hpZmAs6h1OOB-4" target="WYZDTBI8hpZmAs6h1OOB-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-4" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.tape_server;" parent="1" vertex="1">
-          <mxGeometry x="720" y="120" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="1" source="WYZDTBI8hpZmAs6h1OOB-5" target="WYZDTBI8hpZmAs6h1OOB-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.dns;" parent="1" vertex="1">
-          <mxGeometry x="920" y="100" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-7" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.veeam_backup_search_server;" parent="1" vertex="1">
-          <mxGeometry x="720" y="320" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-9" value="" style="shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="120" y="320" width="60" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-10" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;User&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=center;" parent="1" vertex="1">
-          <mxGeometry x="120" y="385" width="60" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-13" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;View Result&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="340" y="360" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-15" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Insert Keyword&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="335" y="330" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-20" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="850" y="130" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-22" value="&lt;h1 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Text Analysis&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;조리방법의 text 중 명사만 추출하고, 명사들의 TF-IDF점수를 매겨 점수가 높은 상위 10개 명사를 HTML에 보낸다.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="850" y="300" width="190" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-23" value="&lt;h1 style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Elastic Search&lt;/span&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;0. Text Analysis를 위해 기본단어들이 저장되어 있다.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;1. User에게 검색어를 받아 저장하고 검색어가 입력될 때 마다 검색횟수를 증가시킨다.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: initial;&quot;&gt;2. Home.html로 누적검색량이 높은 검색어를 10개 보낸다.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="850" y="462.5" width="190" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-24" value="조리방법&lt;br&gt;Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="780" y="240" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-27" value="&lt;h1 style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Web Crawling&lt;/span&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Web에서 요리명, 각 요리별로 조리방법을 크롤링 한다. 요리명은 Search.html로 보내고 조리방법은 Text Analysis 모듈로 보낸다.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="530" y="76" width="190" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-28" value="" style="endArrow=classic;html=1;fontSize=12;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="320" as="sourcePoint" />
-            <mxPoint x="710" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-29" value="Keyword" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="575" y="230" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-30" value="" style="endArrow=classic;html=1;fontSize=12;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="200" as="sourcePoint" />
-            <mxPoint x="570" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-31" value="요리명s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="640" y="260" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-32" value="" style="endArrow=classic;html=1;fontSize=12;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="400" as="sourcePoint" />
-            <mxPoint x="730" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-33" value="" style="endArrow=classic;html=1;fontSize=12;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="520" as="sourcePoint" />
-            <mxPoint x="550" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-34" value="Keyword" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="635" y="430" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-35" value="Top N Keyword" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="570" y="450" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-37" value="" style="endArrow=classic;html=1;fontSize=12;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="360" as="sourcePoint" />
-            <mxPoint x="570" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-39" value="Unique Word" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="600" y="342" width="80" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="WYZDTBI8hpZmAs6h1OOB-41" value="대조군 Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="780" y="440" width="80" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="fjHA46dMA6G9tdhfxbiC-29" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="100" y="860" width="450" height="491" as="geometry" />
         </mxCell>
@@ -265,7 +155,7 @@
             <mxPoint x="260" y="241" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z-qOIZ776hGPXbGgPIfg-2" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Z-qOIZ776hGPXbGgPIfg-2" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="655" y="840" width="365" height="380" as="geometry" />
         </mxCell>
         <mxCell id="fjHA46dMA6G9tdhfxbiC-30" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;run_app.sh 실행&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="Z-qOIZ776hGPXbGgPIfg-2" vertex="1">
@@ -317,6 +207,119 @@
         </mxCell>
         <mxCell id="fjHA46dMA6G9tdhfxbiC-44" value="요리 상자를 클릭하면 하이퍼링크를 통해 자세한 요리 레시피를 보여준다" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="Z-qOIZ776hGPXbGgPIfg-2" vertex="1">
           <mxGeometry x="20" y="331" width="170" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="SfWb0SVNfTe2BU3Or30L-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="76" width="920" height="581.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-1" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.workstation;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="80" y="244" width="118" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-12" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" source="WYZDTBI8hpZmAs6h1OOB-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-2" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.tape_library;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="320" y="244" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-14" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" source="WYZDTBI8hpZmAs6h1OOB-1" target="WYZDTBI8hpZmAs6h1OOB-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-3" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.database;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="600" y="444" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-4" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.tape_server;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="600" y="44" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" source="WYZDTBI8hpZmAs6h1OOB-5" target="WYZDTBI8hpZmAs6h1OOB-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.dns;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="800" y="24" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-7" value="" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.veeam_backup_search_server;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="600" y="244" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-40" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="SfWb0SVNfTe2BU3Or30L-1" source="WYZDTBI8hpZmAs6h1OOB-3" target="WYZDTBI8hpZmAs6h1OOB-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-18" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" source="WYZDTBI8hpZmAs6h1OOB-4" target="WYZDTBI8hpZmAs6h1OOB-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-9" value="" style="shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry y="244" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-10" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;User&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=center;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry y="309" width="60" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-13" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;View Result&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="220" y="284" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-15" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Insert Keyword&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="215" y="254" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-20" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="730" y="54" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-22" value="&lt;h1 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Text Analysis&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;조리방법의 text 중 명사만 추출하고, 명사들의 TF-IDF점수를 매겨 점수가 높은 상위 10개 명사를 HTML에 보낸다.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="730" y="224" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-23" value="&lt;h1 style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Elastic Search&lt;/span&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;0. Text Analysis를 위해 기본단어들이 저장되어 있다.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;1. User에게 검색어를 받아 저장하고 검색어가 입력될 때 마다 검색횟수를 증가시킨다.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: initial;&quot;&gt;2. Home.html로 누적검색량이 높은 검색어를 10개 보낸다.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="730" y="386.5" width="190" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-24" value="조리방법&lt;br&gt;Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="660" y="164" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-27" value="&lt;h1 style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Web Crawling&lt;/span&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Web에서 요리명, 각 요리별로 조리방법을 크롤링 한다. 요리명은 Search.html로 보내고 조리방법은 Text Analysis 모듈로 보낸다.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="410" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-28" value="" style="endArrow=classic;html=1;fontSize=12;" parent="SfWb0SVNfTe2BU3Or30L-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="244" as="sourcePoint" />
+            <mxPoint x="590" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-29" value="Keyword" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="455" y="154" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-30" value="" style="endArrow=classic;html=1;fontSize=12;" parent="SfWb0SVNfTe2BU3Or30L-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="124" as="sourcePoint" />
+            <mxPoint x="450" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-31" value="요리명s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="520" y="184" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-32" value="" style="endArrow=classic;html=1;fontSize=12;" parent="SfWb0SVNfTe2BU3Or30L-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="324" as="sourcePoint" />
+            <mxPoint x="610" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-33" value="" style="endArrow=classic;html=1;fontSize=12;" parent="SfWb0SVNfTe2BU3Or30L-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="444" as="sourcePoint" />
+            <mxPoint x="430" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-34" value="Keyword" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="515" y="354" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-35" value="Top 5 Keyword" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="450" y="374" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-37" value="" style="endArrow=classic;html=1;fontSize=12;" parent="SfWb0SVNfTe2BU3Or30L-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="284" as="sourcePoint" />
+            <mxPoint x="450" y="284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-39" value="Unique Word" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="480" y="266" width="80" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="WYZDTBI8hpZmAs6h1OOB-41" value="대조군 Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="SfWb0SVNfTe2BU3Or30L-1" vertex="1">
+          <mxGeometry x="660" y="364" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
